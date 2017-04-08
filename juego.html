@@ -3,7 +3,7 @@
 <head>
 <style type="text/css">
     .sprite {
-        background: url("sprite_navigator.png") no-repeat;
+        background: url("sprite_navigator.PNG") no-repeat;
     }
     .uno {
         width: 50px; /* Icon width */
@@ -29,17 +29,17 @@
         display: inline-block; /* Display icon as inline block */
         background-position: -100px 0; /* Icon background position in sprite */
     }
-  /* http://blog.teamtreehouse.com/css-sprite-sheet-animations-steps */
-   .monster {
-    width: 190px;
-    height: 240px;
-    margin: 2% auto;
-    background: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/blog/monster.png') left center;
-    animation: play .8s steps(10) infinite;
-  }
-  @keyframes play {
-   100% { background-position: -1900px; }
-  }
+    /* http://blog.teamtreehouse.com/css-sprite-sheet-animations-steps */
+    .monster {
+        width: 190px;
+        height: 240px;
+        /* margin: 2% auto; */
+        background: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/blog/monster.png') left center;
+        animation: play .8s steps(10) infinite;
+    }
+    @keyframes play {
+        100% { background-position: -1900px; }
+    }
   /* body {*/
     /* background: #24aecd; */
   /* } */
@@ -47,14 +47,10 @@
 </head>
 <body>
     <div class="monster"></div>
-<img id="paisaje" src="paisaje.png">
-<span class="sprite uno"></span>
-<span class="sprite dos"></span>
-<span class="sprite tres"></span>
-<span class="sprite cuatro"></span>
-    
-
-
-
+    <img id="paisaje" src="paisaje.PNG">
+    <span class="sprite uno"></span>
+    <span class="sprite dos"></span>
+    <span class="sprite tres"></span>
+    <span class="sprite cuatro"></span>
 </body>
 </html>
